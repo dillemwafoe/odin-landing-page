@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+text-decoration: none;
+color: #e5e7eb;
+}
+
+.header img {
+width: 50px;
+margin-right: auto;
+}
+
+.container-1 img {
+    width: 250px;
+    flex: 1;
+}
+
+.box-image img {
+ border-radius: 12px;
+ border-color:#3882f6
+}
+
+.header {
+display: flex;
+font-size: 18px;
+background-color: #1f2937;
+justify-content: center;
+align-items: center;
+padding: 24px 220px;
+gap: 16px;
+}
+
+.footer {
+display: flex;
+justify-content: flex-end;
+font-size: 18px;
+color:#e5e7eb;
+justify-content: center;
+align-items: center;
+background-color: #1f2937;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: #3882f6;
+    padding: 8px;
+}
+
+button .container-1 {
+   width: 220px;
+   display: flex;
+   flex-grow: 0; 
+}
+
+button .ad {
+    border-color: #f9faf8;
+}
+
+.container-1 {
+    background-color: #1f2937;
+    padding: 24px 220px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 220px;
+    align-items: center;
+    gap: 24px;
+}
+
+.container-2-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-3 {
+  
+}
+
+.container-4 {
+    padding: 36px;
+}
+
+.main-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.subtext {
+color: #e5e7eb;
+font-size: 18px;
+}
+
+.subheading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.ad-box {
+    display: flex;
+    background-color: #3882f6;
+}
+
+.ad-text {
+display: flex;
+
+}
+
+.ad-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f9faf8;
+}
