@@ -18,13 +18,16 @@ margin-right: auto;
 }
 
 .container-1 img {
-    width: 250px;
+    width: 520px;
     flex: 1;
 }
 
 .box-image img {
  border-radius: 12px;
- border-color:#3882f6
+ border-width: thick; 
+ border-color:#3882f6;
+height: 180px;
+width: 180px;
 }
 
 .header {
@@ -45,25 +48,7 @@ color:#e5e7eb;
 justify-content: center;
 align-items: center;
 background-color: #1f2937;
-}
-
-button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    font-size: 18px;
-    border-radius: 8px;
-    border-color: #3882f6;
-    padding: 8px;
-}
-
-button .container-1 {
-   width: 220px;
-   display: flex;
-   flex-grow: 0; 
-}
-
-button .ad {
-    border-color: #f9faf8;
+padding: 36px;
 }
 
 .container-1 {
@@ -78,40 +63,53 @@ button .ad {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .container-2 {
     display: flex;
     flex-direction: column;
-    padding: 24px 220px;
+    padding: 72px 220px;
     align-items: center;
     gap: 24px;
+    justify-content: space-between;
 }
 
 .container-2-1 {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    justify-content: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+    column-gap: 16px;
 }
 
 .container-3 {
-  
+    display: flex;
+    flex-direction: column;
+    padding: 96px 305px;
+    row-gap: 24px;
+    background-color: #e5e7eb
 }
 
 .container-4 {
-    padding: 36px;
+    padding: 108px 220px;
+    flex-direction: row;
 }
 
 .main-title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
-
+    margin: 0;
 }
 
 .subtext {
@@ -128,26 +126,59 @@ font-size: 18px;
 .quote-text{
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1f2937;
 }
 
 .quote-author {
     font-weight: bold;
     font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .ad-box {
     display: flex;
     background-color: #3882f6;
+    border-radius: 12px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 36px 72px;
 }
 
 .ad-text {
 display: flex;
-
+flex-direction: column;
+gap: 8px;
 }
 
 .ad-title {
     font-size: 22px;
     font-weight: bold;
     color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 4px 32px;
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1 button  {
+   border-style: none;
+   outline-style: none;
+}
+
+.ad-box button  {
+    display: flex;
+    flex-grow: 0;
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+    height: 40px
 }
